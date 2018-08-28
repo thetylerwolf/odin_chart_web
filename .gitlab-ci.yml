@@ -1,0 +1,23 @@
+# image: node:7.9.0 # change to match your node version
+
+# cache:
+#   paths:
+#     - node_modules/
+
+# test:
+#   stage: test
+#   script:
+#     - CI=true npm test
+
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mv .well-known public/
+    - cp -r * public/
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public # GitLab pages serve from a 'public' directory
+  only:
+    - master # run on master branch
