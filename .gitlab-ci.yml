@@ -14,7 +14,13 @@ pages:
   script:
     - mkdir public
     - mv .well-known public/
-    - cp -r * public/
+    - mv css public/
+    - mv fonts public/
+    - mv img public/
+    - mv js public/
+    - mv scss public/
+    - mv index.html public/
+    - mv bbs-doc public/
     - cp public/index.html public/404.html
   artifacts:
     paths:
