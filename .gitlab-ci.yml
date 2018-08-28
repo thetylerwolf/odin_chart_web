@@ -14,7 +14,7 @@ pages:
   script:
     - mkdir public
     - mv .well-known public/
-    - cp -r * public/
+    - rsync -av ./* public/ --exclude public
     - cp public/index.html public/404.html
   artifacts:
     paths:
