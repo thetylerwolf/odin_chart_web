@@ -1,0 +1,46 @@
+.mc-field-group input[type=email] {
+	width: 100%;
+	line-height:50px;
+	padding: 0 22px;
+	border-radius:25px;
+	border: none;
+	font-family: inherit;
+}
+
+.clear input[type=submit] {
+	cursor: pointer;
+	color:#333;
+	margin-top:6px;
+	width:100%;
+	line-height:50px;
+	border:none;
+	border-radius:25px;
+	background:transparent;
+	position:relative;
+	font-weight:400;
+	background-image: -moz-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+ 	background-image: -webkit-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+  	background-image: -ms-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+
+  	transition: opacity 750ms;
+}
+
+.clear input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.banner-content h3 {
+	color:#fff;
+	font-size: 18px;
+	margin-bottom:10px;
+	font-weight: 300;
+}
+
+.banner-content h2 {
+	font-size: 48px;
+}
+
+.text-white a {
+	text-decoration: underline;
+	color:#fff;
+}
