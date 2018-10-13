@@ -20,9 +20,9 @@
 	font-weight:400;
 	background-image: -moz-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
  	background-image: -webkit-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
-  	background-image: -ms-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
+	background-image: -ms-linear-gradient(0deg, #f58e9a 0%, #fbe44c 100%);
 
-  	transition: opacity 750ms;
+	transition: opacity 750ms;
 }
 
 .clear input[type=submit]:hover {
@@ -43,4 +43,62 @@
 .text-white a {
 	text-decoration: underline;
 	color:#fff;
+}
+
+.primary-btn.cta {
+	border: 1px solid transparent;
+}
+
+.primary-btn.cta span {
+	color: #222;
+}
+
+.primary-btn.cta:hover span {
+	color: #fff;
+}
+
+.primary-btn.cta:after {
+	opacity: 1;
+}
+
+.story-area {
+	background-color:#fff;
+}
+
+.story-content {
+	margin-bottom:30px;
+}
+
+.blog-area,
+.subscription-area {
+	background-color: #7034db;
+}
+
+.single-feature .desc h4 {
+	text-align: center;
+}
+
+.about-cta {
+	margin-top:30px;
+}
+
+.product-desc {
+	text-align: center;
+}
+
+.product-link img {
+	opacity:1;
+	transition: opacity 500ms;
+}
+
+.product-link:hover img {
+	opacity:0.5;
+}
+
+.company-info img {
+	text-align:center;
+}
+
+.company-info p {
+	color:#ccc;
 }
