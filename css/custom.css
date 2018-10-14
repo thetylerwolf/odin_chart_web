@@ -102,3 +102,15 @@
 .company-info p {
 	color:#ccc;
 }
+
+h3.about-subheader {
+	opacity:0.5;
+}
+
+.underline {
+	text-decoration:underline;
+}
+
+a.ext-link {
+	text-decoration:underline
+}
