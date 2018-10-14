@@ -11,6 +11,31 @@
 	  gtag('config', 'UA-62009464-3');
 	</script>
 
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+		console.log(window.cookieconsent)
+	window.cookieconsent.initialise({
+	  "palette": {
+	    "popup": {
+	      "background": "#7034db",
+	      "text": "#ffffff"
+	    },
+	    "button": {
+	      "background": "transparent",
+	      "text": "#f58e9a",
+	      "border": "#f58e9a"
+	    }
+	  },
+	  "content": {
+	    "message": "This website uses cookies to keep track of anonymous usage statistics.",
+	    "href": "https://app.odinchart.com/privacy.html"
+	  }
+	})});
+	</script>
+
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
@@ -291,6 +316,7 @@
 		<script src="js/jquery.nice-select.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
 		<script src="js/main.js"></script>
+
 
 	</body>
 </html>
