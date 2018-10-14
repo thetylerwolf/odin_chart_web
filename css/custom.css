@@ -112,5 +112,27 @@ h3.about-subheader {
 }
 
 a.ext-link {
-	text-decoration:underline
+	text-decoration:underline;
 }
+
+.primary-btn.secondary {
+	border: 1px solid #222;
+}
+
+.primary-btn.secondary span {
+	color: #222;
+}
+
+.primary-btn.secondary:hover {
+	border: 1px solid transparent;
+	background-color:#222;
+}
+
+.primary-btn.secondary:hover:after {
+	opacity:0;
+}
+
+.primary-btn.secondary:hover span {
+	color: #fff;
+}
+
