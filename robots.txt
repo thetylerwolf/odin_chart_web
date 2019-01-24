@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /work/fbi_crime
+Disallow: /preview.html

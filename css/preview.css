@@ -1,0 +1,177 @@
+body {
+  background: #fcfcfc !important;
+  /*background-image: none;*/
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: inside;
+}
+
+
+.header-logo {
+  width:300px;
+  margin-bottom:50px;
+}
+
+.mc-field-group input[type=email] {
+  width: 300px;
+  line-height:34px;
+  padding: 0 22px;
+  border-radius:17px;
+  border: 1px solid #333;
+  font-family: inherit;
+}
+
+.clear input[type=submit] {
+  cursor: pointer;
+  color:#fcfcfc;
+  margin-top:6px;
+  width:300px;
+  line-height:34px;
+  border:none;
+  border-radius:17px;
+  background:transparent;
+  position:relative;
+  font-weight:400;
+  background-image: -moz-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+  background-image: -webkit-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+  background-image: -ms-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+
+  transition: opacity 750ms;
+}
+
+.clear input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.banner-area,
+.about-area,
+.subscription-area,
+.footer-area {
+  background:#fcfcfc !important;
+}
+
+.footer-area {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.banner-content h3 {
+  color:#fff;
+  font-size: 18px;
+  margin-bottom:10px;
+  font-weight: 300;
+}
+
+.banner-content h2 {
+  font-size: 48px;
+}
+
+.text-white a {
+  text-decoration: underline;
+  color:#fff;
+}
+
+.primary-btn.cta {
+  border: 1px solid transparent;
+}
+
+.primary-btn.cta span {
+  color: #fff;
+}
+
+.primary-btn.cta:hover span {
+  color: #fff;
+}
+
+.primary-btn.cta:after {
+  opacity: 1;
+}
+
+.p2-gradient-bg, .primary-btn:after, .ilene-tabs .nav-item:hover, .ilene-tabs .nav-item.active {
+  background-image: -moz-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+  background-image: -webkit-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+  background-image: -ms-linear-gradient(0deg, #6C8CF4 0%, #4771F7 100%);
+}
+
+.story-area {
+  background-color:#fff;
+}
+
+.story-content {
+  margin-bottom:30px;
+}
+
+.blog-area,
+.subscription-area {
+  background-color: #7034db;
+}
+
+.single-feature .desc h4 {
+  text-align: center;
+}
+
+.about-cta {
+  margin-top:30px;
+}
+
+.product-desc {
+  text-align: center;
+}
+
+.product-link img {
+  opacity:1;
+  transition: opacity 500ms;
+}
+
+.product-link:hover img {
+  opacity:0.5;
+}
+
+.company-info img {
+  text-align:center;
+}
+
+.company-info p {
+  color:#ccc;
+}
+
+.about-header {
+  color:#4771F7;
+}
+
+h3.about-subheader {
+  opacity:1;
+}
+
+.underline {
+  text-decoration:underline;
+}
+
+a.ext-link {
+  text-decoration:underline;
+}
+
+.primary-btn.secondary {
+  border: 1px solid #222;
+}
+
+.primary-btn.secondary span {
+  color: #222;
+}
+
+.primary-btn.secondary:hover {
+  border: 1px solid transparent;
+  background-color:#222;
+}
+
+.primary-btn.secondary:hover:after {
+  opacity:0;
+}
+
+.primary-btn.secondary:hover span {
+  color: #fff;
+}
+
